@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-08T15:51:32 IST" name="Default suite" finished-at="2023-11-08T15:53:51 IST" duration-ms="138945">
+  <suite started-at="2023-11-08T16:51:06 IST" name="Default suite" finished-at="2023-11-08T16:51:20 IST" duration-ms="13986">
     <groups>
     </groups>
-    <test started-at="2023-11-08T15:51:32 IST" name="Default test" finished-at="2023-11-08T15:53:51 IST" duration-ms="138945">
+    <test started-at="2023-11-08T16:51:06 IST" name="Default test" finished-at="2023-11-08T16:51:20 IST" duration-ms="13986">
       <class name="practice.BrokenLinks">
-        <test-method signature="brokenlink()[pri:0, instance:practice.BrokenLinks@2053d869]" started-at="2023-11-08T15:51:32 IST" name="brokenlink" finished-at="2023-11-08T15:53:51 IST" duration-ms="138891" status="PASS">
+        <test-method signature="brokenlink()[pri:0, instance:practice.BrokenLinks@2053d869]" started-at="2023-11-08T16:51:06 IST" name="brokenlink" finished-at="2023-11-08T16:51:20 IST" duration-ms="13911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenlink -->

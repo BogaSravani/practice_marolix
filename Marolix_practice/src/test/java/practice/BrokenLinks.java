@@ -67,19 +67,20 @@ public void brokenlink() throws IOException
         	 try {
         		 //getting url from href attribute
         		 URL url=new URL(href);
-        		// establish an HTTP connection to a URL
+        		// creating connection using url object
         		  HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         		  //connecting
         		  connection.connect();
         		  //getting response code
         		  int responseCode=connection.getResponseCode();
-                 if (responseCode != 200)
+                 if (responseCode > 400)
                  {
-                     System.out.println("Broken link: " + href + " (Status code: " + responseCode + ")");
-                 }
-             } catch (Exception e) {
+                     System.out.println("Broken link: " + href + " (Status code: " + responseCode + ")"+connection.getResponseMessage());
+                     connection.disconnect();
+             }} catch (Exception e) {
                  System.out.println("Error checking link: " + href + " (" + e.getMessage() + ")");
              }
+        	 
          }
      }
  }
